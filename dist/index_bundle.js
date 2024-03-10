@@ -1,1 +1,1 @@
-console.log("Its running!!!!");
+(()=>{"use strict";!function(){let e=document.createElement("header");e.innerHTML="<p>This is a header</p>",document.body.appendChild(e)}()})();
