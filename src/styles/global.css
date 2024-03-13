@@ -1,0 +1,20 @@
+* {
+    --blue900: #100032;
+    --yellow: #FEEFB4;
+    --blue200: #98CBE6;
+    --wine: #770F3D;
+    --white: #FFFF;
+
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0,
+  }
+
+  body {
+    background-color: var(--blue900);
+    color: var(--white);
+    -webkit-font-smoothing: 'antialiased';
+  }
+
+  
