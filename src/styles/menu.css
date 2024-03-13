@@ -1,0 +1,35 @@
+.menu-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.menu-main .image-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-main .image-div img {
+    height: 300px;
+    width: 300px;
+}
+
+.menu-main .image-div p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.menu-main .text-div span{
+    font-weight: bold;
+}
+
+.menu-main .text-div {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 32px;
+    font-size: 1rem;
+    margin: 32px 60px;
+}
