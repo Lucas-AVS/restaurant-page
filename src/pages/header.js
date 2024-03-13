@@ -12,6 +12,7 @@ export default function createHeader() {
   const homeLi = document.createElement("li");
   homeLi.className = "home";
   homeLi.textContent = "home";
+  homeLi.setAttribute("selected", true);
   const menuLi = document.createElement("li");
   menuLi.className = "menu";
   menuLi.textContent = "menu";

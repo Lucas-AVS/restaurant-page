@@ -54,3 +54,18 @@
     cursor: pointer;
     font-weight: bold;
 }
+
+.home[selected],
+.about[selected],
+.menu[selected] {
+    color: var(--white);
+    text-shadow:
+        0 0 7px var(--yellow),
+        0 0 10px var(--yellow),
+        0 0 21px var(--yellow),
+        0 0 42px var(--blue200),
+        0 0 82px var(--blue200),
+        0 0 92px var(--blue200),
+        0 0 102px var(--blue200),
+        0 0 151px var(--blue200);
+}

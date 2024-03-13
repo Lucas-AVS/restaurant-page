@@ -14,6 +14,13 @@ function handleChangePage(page) {
   return function () {
     resetPage();
     changePage(page);
+
+    // Remover 'selected' from all
+    home.removeAttribute("selected");
+    about.removeAttribute("selected");
+    menu.removeAttribute("selected");
+    // Add 'selected' to clicked value
+    this.setAttribute("selected", true);
   };
 }
 
