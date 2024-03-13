@@ -17,6 +17,7 @@
 }
 
 .about-main .image-div p {
+    margin-top: 5px;
     font-size: 0.75rem;
 }
 
@@ -27,4 +28,8 @@
     margin-top: 32px;
     font-size: 1rem;
     margin: 32px;
+}
+
+.about-main .text-div p{
+    margin-bottom: 1rem;
 }

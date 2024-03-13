@@ -5,13 +5,13 @@ export default function home() {
   const ImgDiv = document.createElement("div");
   const img = document.createElement("img");
   img.src = "/src/assets/capybara-brothers.png";
-  const address = document.createElement("p");
+  const portrait = document.createElement("p");
   const TextDiv = document.createElement("div");
   const p1 = document.createElement("p");
   const p2 = document.createElement("p");
   const p3 = document.createElement("p");
 
-  address.textContent = "Pizzarella Capybara & Pizzarella Capybara";
+  portrait.textContent = "Pizzarella Capybara & Pizzarella Capybara";
   p1.textContent =
     "Cappuccino Capybara was a capybara with a curious mustache and bright eyes. He spent his days exploring coffee fields, studying beans, and learning the secrets of the barista craft. His dream? To create cocktails and alcoholic beverages that would make customers’ hearts dance with joy. He envisioned silky-smooth lattes, cappuccinos adorned with leaf patterns, and espresso shots that could awaken even the sleepiest forest elves.";
   p2.textContent =
@@ -28,7 +28,7 @@ export default function home() {
   TextDiv.appendChild(p3);
 
   ImgDiv.appendChild(img);
-  ImgDiv.appendChild(address);
+  ImgDiv.appendChild(portrait);
 
   main.appendChild(ImgDiv);
   main.appendChild(TextDiv);

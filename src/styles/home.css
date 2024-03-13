@@ -26,3 +26,7 @@
     font-size: 1rem;
     width: 300px;
 }
+
+.home-main .text-div p {
+    margin-bottom: 1rem;
+}
