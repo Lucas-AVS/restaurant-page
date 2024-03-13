@@ -11,13 +11,13 @@ export default function createHeader() {
 
   const homeLi = document.createElement("li");
   homeLi.className = "home";
-  homeLi.textContent = "HOME";
+  homeLi.textContent = "home";
   const menuLi = document.createElement("li");
   menuLi.className = "menu";
-  menuLi.textContent = "MENU";
+  menuLi.textContent = "menu";
   const aboutLi = document.createElement("li");
   aboutLi.className = "about";
-  aboutLi.textContent = "ABOUT";
+  aboutLi.textContent = "about";
 
   ul.appendChild(homeLi);
   ul.appendChild(menuLi);
