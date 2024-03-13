@@ -71,5 +71,6 @@ export default function home() {
   main.appendChild(pizzaContainer);
   main.appendChild(barContainer);
 
-  document.body.appendChild(main);
+  const content = document.querySelector(".content");
+  content.appendChild(main);
 }

@@ -10,10 +10,13 @@ export default function createHeader() {
   const ul = document.createElement("ul");
 
   const homeLi = document.createElement("li");
+  homeLi.className = "home";
   homeLi.textContent = "HOME";
   const menuLi = document.createElement("li");
+  menuLi.className = "menu";
   menuLi.textContent = "MENU";
   const aboutLi = document.createElement("li");
+  aboutLi.className = "about";
   aboutLi.textContent = "ABOUT";
 
   ul.appendChild(homeLi);
@@ -25,5 +28,6 @@ export default function createHeader() {
 
   header.appendChild(div);
 
-  document.body.appendChild(header);
+  const content = document.querySelector(".content");
+  content.appendChild(header);
 }

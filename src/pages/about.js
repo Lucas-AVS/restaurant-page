@@ -33,5 +33,6 @@ export default function home() {
   main.appendChild(ImgDiv);
   main.appendChild(TextDiv);
 
-  document.body.appendChild(main);
+  const content = document.querySelector(".content");
+  content.appendChild(main);
 }
