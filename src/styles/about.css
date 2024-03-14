@@ -33,3 +33,42 @@
 .about-main .text-div p{
     margin-bottom: 1rem;
 }
+
+
+@media only screen and (min-width: 1200px) {
+    .about-main {
+        display: flex;
+        flex-direction: row;
+
+        padding: 0 15%;
+        gap: 40px;
+    }
+    
+    .about-main .image-div {
+        gap: 30px;
+    }
+    
+    .about-main .image-div img {
+        height: 420px;
+        width: 420px;
+    }
+    
+    .about-main .image-div p {
+        margin-top: 5px;
+        font-size: 1.1rem
+    }
+    
+    .about-main .text-div {
+        display: flex;
+        flex-direction: column;
+    
+        margin-top: 32px;
+        font-size: 1rem;
+        margin: 32px;
+    }
+    
+    .about-main .text-div p{
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+  }
