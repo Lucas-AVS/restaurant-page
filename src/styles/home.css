@@ -30,3 +30,47 @@
 .home-main .text-div p {
     margin-bottom: 1rem;
 }
+
+
+@media only screen and (min-width: 768px) {
+    .home-main {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+
+        margin: 90px 0;
+        padding: 0 10%;
+        gap: 130px;
+    }
+    
+    
+    .home-main .image-div img {
+        height: 420px;
+        width: 420px;
+    }
+    
+    .home-main .image-div p {
+        font-size: 1.1rem;
+    }
+    
+    .home-main .text-div {
+        margin: 32px 0;
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    
+    .home-main .text-div p {
+        margin-bottom: 1rem;
+    }
+  }
+  
+  @media only screen and (min-width: 1400px) {
+    .home-main {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+
+        margin: 90px 0;
+        padding: 0 20%;
+        gap: 130px;
+    }
+
+  }
