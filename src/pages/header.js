@@ -6,7 +6,7 @@ export default function createHeader() {
   const div = document.createElement("div");
   div.className = "container";
   const img = document.createElement("img");
-  img.src = { logo };
+  img.src = logo;
 
   const ul = document.createElement("ul");
 
