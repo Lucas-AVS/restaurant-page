@@ -97,6 +97,28 @@ eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=w
 
 /***/ }),
 
+/***/ "./src/assets/bar-entrance.png":
+/*!*************************************!*\
+  !*** ./src/assets/bar-entrance.png ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"8cb73736227f00293344a72763ddb1d0.png\");\n\n//# sourceURL=webpack://restaurant-page/./src/assets/bar-entrance.png?");
+
+/***/ }),
+
+/***/ "./src/assets/capizzabar-logo.png":
+/*!****************************************!*\
+  !*** ./src/assets/capizzabar-logo.png ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"08fe803bcd9e8d0c999146103dc73bab.png\");\n\n//# sourceURL=webpack://restaurant-page/./src/assets/capizzabar-logo.png?");
+
+/***/ }),
+
 /***/ "./node_modules/lodash/lodash.js":
 /*!***************************************!*\
   !*** ./node_modules/lodash/lodash.js ***!
@@ -290,7 +312,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ createHeader)\n/* harmony export */ });\n/* harmony import */ var _styles_header_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/header.css */ \"./src/styles/header.css\");\n/* harmony import */ var _assets_capizzabar_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/capizzabar-logo.png */ \"./src/assets/capizzabar-logo.png\");\n\n\n\nfunction createHeader() {\n  const header = document.createElement(\"header\");\n  const div = document.createElement(\"div\");\n  div.className = \"container\";\n  const img = document.createElement(\"img\");\n  img.src = _assets_capizzabar_logo_png__WEBPACK_IMPORTED_MODULE_1__;\n\n  const ul = document.createElement(\"ul\");\n\n  const homeLi = document.createElement(\"li\");\n  homeLi.className = \"home\";\n  homeLi.textContent = \"home\";\n  homeLi.setAttribute(\"selected\", true);\n  const menuLi = document.createElement(\"li\");\n  menuLi.className = \"menu\";\n  menuLi.textContent = \"menu\";\n  const aboutLi = document.createElement(\"li\");\n  aboutLi.className = \"about\";\n  aboutLi.textContent = \"about\";\n\n  ul.appendChild(homeLi);\n  ul.appendChild(menuLi);\n  ul.appendChild(aboutLi);\n\n  div.appendChild(img);\n  div.appendChild(ul);\n\n  header.appendChild(div);\n\n  const content = document.querySelector(\".content\");\n  content.appendChild(header);\n}\n\n\n//# sourceURL=webpack://restaurant-page/./src/pages/header.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ createHeader)\n/* harmony export */ });\n/* harmony import */ var _styles_header_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/header.css */ \"./src/styles/header.css\");\n/* harmony import */ var _assets_capizzabar_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/capizzabar-logo.png */ \"./src/assets/capizzabar-logo.png\");\n\n\n\nfunction createHeader() {\n  const header = document.createElement(\"header\");\n  const div = document.createElement(\"div\");\n  div.className = \"container\";\n  const img = document.createElement(\"img\");\n  img.src = _assets_capizzabar_logo_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"];\n\n  const ul = document.createElement(\"ul\");\n\n  const homeLi = document.createElement(\"li\");\n  homeLi.className = \"home\";\n  homeLi.textContent = \"home\";\n  homeLi.setAttribute(\"selected\", true);\n  const menuLi = document.createElement(\"li\");\n  menuLi.className = \"menu\";\n  menuLi.textContent = \"menu\";\n  const aboutLi = document.createElement(\"li\");\n  aboutLi.className = \"about\";\n  aboutLi.textContent = \"about\";\n\n  ul.appendChild(homeLi);\n  ul.appendChild(menuLi);\n  ul.appendChild(aboutLi);\n\n  div.appendChild(img);\n  div.appendChild(ul);\n\n  header.appendChild(div);\n\n  const content = document.querySelector(\".content\");\n  content.appendChild(header);\n}\n\n\n//# sourceURL=webpack://restaurant-page/./src/pages/header.js?");
 
 /***/ }),
 
@@ -301,7 +323,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ home)\n/* harmony export */ });\n/* harmony import */ var _styles_home_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/home.css */ \"./src/styles/home.css\");\n/* harmony import */ var _assets_capizzabar_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/capizzabar-logo.png */ \"./src/assets/capizzabar-logo.png\");\n\n\n\nfunction home() {\n  const main = document.createElement(\"main\");\n  const ImgDiv = document.createElement(\"div\");\n  const img = document.createElement(\"img\");\n  img.src = _assets_capizzabar_logo_png__WEBPACK_IMPORTED_MODULE_1__;\n  const address = document.createElement(\"p\");\n  const TextDiv = document.createElement(\"div\");\n  const p1 = document.createElement(\"p\");\n  const p2 = document.createElement(\"p\");\n\n  address.textContent = \"123 Neon Lane, Lumina City.\";\n  p1.textContent =\n    \"The Capybara brothers, renowned for their quirky creativity, have woven enchantment into every corner of CaPizzaBar. \";\n  p2.textContent =\n    \"Step into CaPizzaBar, a neon-lit oasis crafted by the imaginative Capybara brothers. Their pizzas are an art form—crispy crusts, magical toppings, and cheese that sings. Pair your slice with signature cocktails that glow under blacklight.\";\n\n  ImgDiv.className = \"image-div\";\n  TextDiv.className = \"text-div\";\n  main.className = \"home-main\";\n\n  TextDiv.appendChild(p1);\n  TextDiv.appendChild(p2);\n\n  ImgDiv.appendChild(img);\n  ImgDiv.appendChild(address);\n\n  main.appendChild(ImgDiv);\n  main.appendChild(TextDiv);\n\n  const content = document.querySelector(\".content\");\n  content.appendChild(main);\n}\n\n\n//# sourceURL=webpack://restaurant-page/./src/pages/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ home)\n/* harmony export */ });\n/* harmony import */ var _styles_home_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/home.css */ \"./src/styles/home.css\");\n/* harmony import */ var _assets_bar_entrance_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/bar-entrance.png */ \"./src/assets/bar-entrance.png\");\n\n\n\nfunction home() {\n  const main = document.createElement(\"main\");\n  const ImgDiv = document.createElement(\"div\");\n  const img = document.createElement(\"img\");\n  img.src = _assets_bar_entrance_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"];\n  const address = document.createElement(\"p\");\n  const TextDiv = document.createElement(\"div\");\n  const p1 = document.createElement(\"p\");\n  const p2 = document.createElement(\"p\");\n\n  address.textContent = \"123 Neon Lane, Lumina City.\";\n  p1.textContent =\n    \"The Capybara brothers, renowned for their quirky creativity, have woven enchantment into every corner of CaPizzaBar. \";\n  p2.textContent =\n    \"Step into CaPizzaBar, a neon-lit oasis crafted by the imaginative Capybara brothers. Their pizzas are an art form—crispy crusts, magical toppings, and cheese that sings. Pair your slice with signature cocktails that glow under blacklight.\";\n\n  ImgDiv.className = \"image-div\";\n  TextDiv.className = \"text-div\";\n  main.className = \"home-main\";\n\n  TextDiv.appendChild(p1);\n  TextDiv.appendChild(p2);\n\n  ImgDiv.appendChild(img);\n  ImgDiv.appendChild(address);\n\n  main.appendChild(ImgDiv);\n  main.appendChild(TextDiv);\n\n  const content = document.querySelector(\".content\");\n  content.appendChild(main);\n}\n\n\n//# sourceURL=webpack://restaurant-page/./src/pages/home.js?");
 
 /***/ }),
 
@@ -335,17 +357,6 @@ eval("module.exports = __webpack_require__.p + \"8ada0ba8c2b5e003cb20.woff2\";\n
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"575a6bf5e47508384c53.woff2\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/Vibur-Regular.woff2?");
-
-/***/ }),
-
-/***/ "./src/assets/capizzabar-logo.png":
-/*!****************************************!*\
-  !*** ./src/assets/capizzabar-logo.png ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"08fe803bcd9e8d0c9991.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/capizzabar-logo.png?");
 
 /***/ })
 
