@@ -6,6 +6,7 @@ export default function home() {
   const pizzaContainer = document.createElement("div");
   const pizzaImgDiv = document.createElement("div");
   const pizzaTittle = document.createElement("p");
+  pizzaTittle.className = "tittle";
   const pizzaImg = document.createElement("img");
   pizzaImg.src = "/src/assets/pizza-photo.png";
 
@@ -38,10 +39,11 @@ export default function home() {
   const barContainer = document.createElement("div");
   const barImgDiv = document.createElement("div");
   const barTittle = document.createElement("p");
+  barTittle.className = "tittle";
   const barImg = document.createElement("img");
   barImg.src = "/src/assets/drink-photo.png";
 
-  const drinkDiv = document.createElement("div");
+  const barDiv = document.createElement("div");
   const drink1 = document.createElement("p");
   const drink2 = document.createElement("p");
   const drink3 = document.createElement("p");
@@ -56,18 +58,26 @@ export default function home() {
 
   main.className = "menu-main";
   barImgDiv.className = "image-div";
-  drinkDiv.className = "text-div";
+  barDiv.className = "text-div";
 
-  drinkDiv.appendChild(drink1);
-  drinkDiv.appendChild(drink2);
-  drinkDiv.appendChild(drink3);
-
+  barDiv.appendChild(drink1);
+  barDiv.appendChild(drink2);
+  barDiv.appendChild(drink3);
   barImgDiv.appendChild(barTittle);
+
+  // Adicionar as partes "Pizza" e "Bar" à textDiv no layout de desktop
+  if (window.innerWidth > 768) {
+    pizzaDiv.insertBefore(pizzaTittle, pizzaDiv.firstChild);
+    barDiv.insertBefore(barTittle, barDiv.firstChild);
+  }
+
   barImgDiv.appendChild(barImg);
 
   barContainer.appendChild(barImgDiv);
-  barContainer.appendChild(drinkDiv);
+  barContainer.appendChild(barDiv);
 
+  barContainer.className = "bar-container";
+  pizzaContainer.className = "pizza-container";
   main.appendChild(pizzaContainer);
   main.appendChild(barContainer);
 
