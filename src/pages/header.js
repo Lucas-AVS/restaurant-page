@@ -1,11 +1,12 @@
 import "../styles/header.css";
+import logo from "../assets/capizzabar-logo.png";
 
 export default function createHeader() {
   const header = document.createElement("header");
   const div = document.createElement("div");
   div.className = "container";
   const img = document.createElement("img");
-  img.src = "../assets/capizzabar-logo.png";
+  img.src = { logo };
 
   const ul = document.createElement("ul");
 
