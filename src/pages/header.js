@@ -5,7 +5,7 @@ export default function createHeader() {
   const div = document.createElement("div");
   div.className = "container";
   const img = document.createElement("img");
-  img.src = "/src/assets/capizzabar-logo.png";
+  img.src = "./src/assets/capizzabar-logo.png";
 
   const ul = document.createElement("ul");
 
