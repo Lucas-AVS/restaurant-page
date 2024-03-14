@@ -1,10 +1,11 @@
 import "../styles/home.css";
+import barImg from "../assets/bar-entrance.png";
 
 export default function home() {
   const main = document.createElement("main");
   const ImgDiv = document.createElement("div");
   const img = document.createElement("img");
-  img.src = "/src/assets/bar-entrance.png";
+  img.src = barImg;
   const address = document.createElement("p");
   const TextDiv = document.createElement("div");
   const p1 = document.createElement("p");

@@ -1,10 +1,11 @@
 import "../styles/about.css";
+import capyBrothersPhoto from "../assets/capybara-brothers.png";
 
 export default function home() {
   const main = document.createElement("main");
   const ImgDiv = document.createElement("div");
   const img = document.createElement("img");
-  img.src = "/src/assets/capybara-brothers.png";
+  img.src = capyBrothersPhoto;
   const portrait = document.createElement("p");
   const TextDiv = document.createElement("div");
   const p1 = document.createElement("p");

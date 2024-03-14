@@ -1,4 +1,6 @@
 import "../styles/menu.css";
+import pizzaPreviewImage from "../assets/pizza-photo.png";
+import drinkPreviewImage from "../assets/drink-photo.png";
 
 export default function home() {
   const main = document.createElement("main");
@@ -8,7 +10,7 @@ export default function home() {
   const pizzaTittle = document.createElement("p");
   pizzaTittle.className = "tittle";
   const pizzaImg = document.createElement("img");
-  pizzaImg.src = "/src/assets/pizza-photo.png";
+  pizzaImg.src = pizzaPreviewImage;
 
   const pizzaDiv = document.createElement("div");
   const pizza1 = document.createElement("p");
@@ -41,7 +43,7 @@ export default function home() {
   const barTittle = document.createElement("p");
   barTittle.className = "tittle";
   const barImg = document.createElement("img");
-  barImg.src = "/src/assets/drink-photo.png";
+  barImg.src = drinkPreviewImage;
 
   const barDiv = document.createElement("div");
   const drink1 = document.createElement("p");
